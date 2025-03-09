@@ -1,4 +1,3 @@
-{{REWRITTEN_CODE}}
 class Cutler < Formula
   desc "Declarative macOS settings management at your fingertips, with speed."
   homepage "https://github.com/hitblast/cutler"

@@ -6,7 +6,11 @@ class Cutler < Formula
   sha256 "78607f241a41b15347662d32d113b2681333ade22d9fdf9e9ffa58abc891f079"
   license "MIT"
 
-  depends_on macos: :sonoma # macOS 14
+  if OS.linux?
+    odie "cutler is only available on macOS."
+  end
+
+  depends_on :macos
 
   def install
     bin.install "cutler"

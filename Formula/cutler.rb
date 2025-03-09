@@ -1,3 +1,4 @@
+{{REWRITTEN_CODE}}
 class Cutler < Formula
   desc "Declarative macOS settings management at your fingertips, with speed."
   homepage "https://github.com/hitblast/cutler"
@@ -5,7 +6,7 @@ class Cutler < Formula
   sha256 "6d2e2ec9c4603920be5dc518f33478999551a98892f850924d16a739fc8c6b3f"
   license "MIT"
 
-  depends_on macos: ">= :sonoma" # macOS 14
+  depends_on macos: :sonoma # macOS 14
 
   def install
     bin.install "cutler"

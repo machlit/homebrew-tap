@@ -9,5 +9,7 @@ class Cutler < Formula
 
   depends_on macos: ">= :sonoma" # macOS 14
 
-  binary "cutler-#{version}-darwin-arm64/cutler"
+  def install
+    bin.install "cutler-#{version}-darwin-arm64/cutler"
+  end
 end

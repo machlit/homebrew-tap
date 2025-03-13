@@ -13,5 +13,5 @@ cask "alter" do
     system "xattr -d com.apple.quarantine #{appdir}/Alter.app"
   end
 
-  app "alter-v#{version}-darwin-arm64/Alter.app"
+  app "Alter.app"
 end

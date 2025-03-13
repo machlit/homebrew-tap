@@ -1,8 +1,8 @@
 cask "alter" do
-  version '1.0.0-fix'
-  sha256 "52379bedf5aec6cce2894280d3b8c98d26b1f8d4d475a08330dd677a12f9c8c1"
+  version '1.0.1'
+  sha256 "8f2c8786e5f85575b97a23116fef3d1a3f2195ea0f347d67a8045f26c0c72e1a"
 
-  url "https://github.com/hitblast/Alter/releases/download/v1.0.0/alter-v1.0.0-darwin-arm64.zip"
+  url "https://github.com/hitblast/Alter/releases/download/v#{version}/alter-v#{version}-darwin-arm64.zip"
   name "Alter"
   desc "Alter is a minimal macOS app which can be used to customize your app icons with ease."
   homepage "https://github.com/hitblast/Alter"

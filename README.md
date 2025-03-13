@@ -11,6 +11,10 @@ brew tap hitblast/tap
 brew install hitblast/tap/cutler
 ```
 
+## Available Casks
+
+- [Alter](https://github.com/hitblast/Alter) 🟢
+
 ## Available Formulae
 
 - [cutler](https://github.com/hitblast/cutler) 🟢

@@ -10,6 +10,6 @@ class Cutler < Formula
 
   def install
     man1.install "man/cutler.1"
-    bin.install bin/"cutler"
+    bin.install "bin/cutler"
   end
 end

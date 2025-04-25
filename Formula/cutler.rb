@@ -1,9 +1,9 @@
 class Cutler < Formula
-  version "0.4.7"
+  version "0.5.0"
   desc "Declarative macOS settings management at your fingertips, with speed."
   homepage "https://github.com/hitblast/cutler"
   url "https://github.com/hitblast/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-arm64.zip"
-  sha256 "4c694d3856ef53bdac556f9fe9433131e79958ddf226c91dabb5d5ccdccf6400"
+  sha256 "a78939b776bb1e6725b9548029638b90daa974658cae4063086e4f66e7517634"
   license "MIT"
 
   depends_on :macos

@@ -1,6 +1,6 @@
 class Cutler < Formula
   version "0.5.2"
-  desc "Declarative macOS settings management at your fingertips, with speed."
+  desc "Powerful, declarative settings management for your Mac, with speed."
   homepage "https://github.com/hitblast/cutler"
   url "https://github.com/hitblast/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-arm64.zip"
   sha256 "d0bd1a20e531e6abde5bce4fbd9dcf0f7b1e8a744d98006b3f337b482191920d"

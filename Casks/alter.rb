@@ -1,6 +1,6 @@
 cask "alter" do
-  version '1.1.3'
-  sha256 "4887be669dad230d153975cceae81f709eb6bbd0e3ef12f25a22fd003083bc75"
+  version '1.1.4'
+  sha256 "4cd70f5babff08e5368d77d3cbb0c72031eb1f796a4e52c18e5fef92fb515c05"
 
   url "https://github.com/hitblast/Alter/releases/download/v#{version}/alter-v#{version}-darwin-arm64.zip"
   name "Alter"

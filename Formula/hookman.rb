@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# Homebrew formula for Cutler: Add hooks to your Git repository using a TOML file.
-class Cutler < Formula
+# Homebrew formula for Hookman: Add hooks to your Git repository using a TOML file.
+class Hookman < Formula
   version '0.1.1'
   desc 'Add hooks to your Git repository using a TOML file.'
   homepage 'https://github.com/hitblast/hookman'

@@ -18,6 +18,7 @@ brew install hitblast/tap/cutler
 ## Available Formulae
 
 - [cutler](https://github.com/hitblast/cutler) 🟢
+- [hookman](https://github.com/hitblast/hookman) 🟢
 
 ## Maintained Formulae
 

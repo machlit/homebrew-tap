@@ -13,7 +13,7 @@ class Cutler < Formula
 
   on_intel do
     url "https://github.com/hitblast/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-x86_64.zip"
-    sha256 'ec1c0540467097bace3faa9679d0c13d23a04cb8d67b962435a755132e1028f3' # Replace with actual sha256
+    sha256 'ec1c0540467097bace3faa9679d0c13d23a04cb8d67b962435a755132e1028f3'
   end
 
   license 'MIT'

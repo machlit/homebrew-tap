@@ -2,18 +2,18 @@
 
 # Homebrew formula for Hookman: Add hooks to your Git repository using a TOML file.
 class Hookman < Formula
-  version '0.1.4'
+  version '0.1.5'
   desc 'Add hooks to your Git repository using a TOML file.'
   homepage 'https://github.com/hitblast/hookman'
 
   on_arm do
     url "https://github.com/hitblast/hookman/releases/download/v#{version}/hookman-v#{version}-darwin-arm64.zip"
-    sha256 '5f63a3d102e5f4529772b45a73afb2706d8642f9b73004125a8f9c1e55c6a9c6'
+    sha256 '3d00fee17a06cb08ce61a02111bc12128352cc1e67ac512f1f92823abcce9ff9'
   end
 
   on_intel do
     url "https://github.com/hitblast/hookman/releases/download/v#{version}/hookman-v#{version}-darwin-x86_64.zip"
-    sha256 '756ed3c2c4467383531b428ee14c4773af1e6ecfe88ed0fa4425cd19bf7f6707'
+    sha256 '5ba9051b988bb1fa666ed0138e4c3a2e0811951b75446fb89a513316e11441b7'
   end
 
   license 'MIT'

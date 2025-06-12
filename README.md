@@ -1,4 +1,5 @@
 # homebrew-tap
+
 Persistent Homebrew tap for shipping my software.
 
 ## Installation
@@ -18,6 +19,7 @@ brew install hitblast/tap/cutler
 ## Available Formulae
 
 - [cutler](https://github.com/hitblast/cutler) 🟢
+- [drs](https://github.com/hitblast/defaults-rs) 🟢
 - [hookman](https://github.com/hitblast/hookman) 🟢
 
 ## Maintained Formulae

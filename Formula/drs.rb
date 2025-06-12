@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Homebrew formula for defaults-rs: Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.
-class DefaultsRs < Formula
+class DRS < Formula
   version '0.1.1'
   desc 'Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.'
   homepage 'https://github.com/hitblast/defaults-rs'

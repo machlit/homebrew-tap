@@ -26,4 +26,3 @@ brew install hitblast/tap/cutler
 
 - [nimip](https://github.com/hitblast/nimip) 🟡
 - [mcsrvstat](https://github.com/hitblast/mcsrvstat) 🟡
-- [resfetch](https://github.com/hitblast/resfetch) 🟡

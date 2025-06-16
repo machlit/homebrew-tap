@@ -2,18 +2,18 @@
 
 # Homebrew formula for defaults-rs: Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.
 class Drs < Formula
-  version '0.1.9'
+  version '0.2.0'
   desc 'Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.'
   homepage 'https://github.com/hitblast/defaults-rs'
 
   on_arm do
     url "https://github.com/hitblast/defaults-rs/releases/download/v#{version}/drs-v#{version}-darwin-arm64.zip"
-    sha256 '802420a4a7c47816451f1301f98f6c71d313c668f620b0462bed4584e5f2ee97'
+    sha256 'ab3c043e409a52993db37e3180a58a00964880123ba90141075c12ce9b7d3076'
   end
 
   on_intel do
     url "https://github.com/hitblast/defaults-rs/releases/download/v#{version}/drs-v#{version}-darwin-x86_64.zip"
-    sha256 'fc21b304145e740fbbe6e5db5f4de7d3f80bbf58d142264e39e15cd10d289b18'
+    sha256 'fe866deffa29a8ee158bdcbcfacd4d8b37b72dc717cd10aa73efa57206d4c44f'
   end
 
   license 'MIT'

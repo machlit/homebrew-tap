@@ -9,7 +9,7 @@ class Cutler < Formula
   on_arm do
     url "https://github.com/hitblast/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-arm64.zip"
     sha256 '9573b68b3fb3d3e2688e26b86abfa995ffdddd628afaa94a8e1c09aaa1b8b73d'
-  end5
+  end
 
   on_intel do
     url "https://github.com/hitblast/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-x86_64.zip"

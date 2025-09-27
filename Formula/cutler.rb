@@ -16,7 +16,7 @@ class Cutler < Formula
     sha256 '9c3d05ebbf1479e121862ad9a14ef64ad81ce9f7be84b3aa2a0998e5f735c9b5'
   end
 
-  license 'MIT'
+  license 'Apache-2.0'
 
   depends_on :macos
 

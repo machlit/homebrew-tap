@@ -1,19 +1,26 @@
 # frozen_string_literal: true
 
+# Homebrew formula for Cutler: Powerful, declarative settings management for your Mac, with speed.
 class Cutler < Formula
   version '0.14.0'
   desc 'Powerful, declarative settings management for your Mac, with speed.'
   homepage 'https://github.com/cutlercli/cutler'
 
-  # ARM-only build
-  url "https://github.com/cutlercli/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-arm64.zip"
-  sha256 'f956c7db9069afdbccdd41d811dbcb2ce27f4620e82ed39048638bb8509ceccf'
+  on_arm do
+    url "https://github.com/cutlercli/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-arm64.zip"
+    sha256 'ddca2323038f400779c09a2aa98cc3ff5664aa6473a5a134bd27d0cb471e2b50'
+  end
+
+  on_intel do
+    url "https://github.com/cutlercli/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-x86_64.zip"
+    sha256 'a6b858a61c6271b104a7715f2f9601573f0e097f84a6caf146f4f601ad9f840c'
+  end
 
   license 'GPL-3.0-or-later'
+
   depends_on :macos
 
   def install
-    odie "cutler only supports Apple Silicon (ARM64)" unless Hardware::CPU.arm?
     man1.install 'man/man1/cutler.1'
     bin.install 'bin/cutler'
     generate_completions_from_executable(bin / 'cutler', 'completion')

@@ -2,7 +2,7 @@
 
 # Homebrew formula for Cutler: Powerful, declarative settings management for your Mac, with speed.
 class Cutler < Formula
-  version '0.14.0'
+  version '0.14.1'
   desc 'Powerful, declarative settings management for your Mac, with speed.'
   homepage 'https://github.com/cutlercli/cutler'
 
@@ -23,4 +23,3 @@ class Cutler < Formula
     generate_completions_from_executable(bin / 'cutler', 'completion')
   end
 end
-

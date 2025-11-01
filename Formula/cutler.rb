@@ -8,17 +8,12 @@ class Cutler < Formula
 
   on_arm do
     url "https://github.com/cutlercli/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-arm64.zip"
-    sha256 'ddca2323038f400779c09a2aa98cc3ff5664aa6473a5a134bd27d0cb471e2b50'
+    sha256 '8694847e6c3a0fa7544cc44f40ded4230d45c58eb23ee18cfd8e67bb6bbd54a7'
   end
 
-  on_intel do
-    url "https://github.com/cutlercli/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-x86_64.zip"
-    sha256 'a6b858a61c6271b104a7715f2f9601573f0e097f84a6caf146f4f601ad9f840c'
-  end
+  depends_on :macos => :arm
 
   license 'GPL-3.0-or-later'
-
-  depends_on :macos
 
   def install
     man1.install 'man/man1/cutler.1'
@@ -26,3 +21,4 @@ class Cutler < Formula
     generate_completions_from_executable(bin / 'cutler', 'completion')
   end
 end
+

@@ -8,7 +8,7 @@ class Cutler < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/cutlercli/cutler/releases/download/v#{version}/cutler-v#{version}-darwin-arm64.zip"
-    sha256 'ddca2323038f400779c09a2aa98cc3ff5664aa6473a5a134bd27d0cb471e2b50'
+    sha256 '8694847e6c3a0fa7544cc44f40ded4230d45c58eb23ee18cfd8e67bb6bbd54a7'
   else
     odie "cutler is only available for macOS ARM (Apple Silicon)."
   end

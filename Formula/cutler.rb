@@ -13,7 +13,7 @@ class Cutler < Formula
     odie "cutler is only available for macOS ARM (Apple Silicon)."
   end
 
-  license 'GPL-3.0-or-later'
+  license 'MIT OR Apache-2.0'
 
   depends_on :macos
 

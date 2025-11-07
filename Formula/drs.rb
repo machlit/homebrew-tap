@@ -1,19 +1,16 @@
 # frozen_string_literal: true
 
-# Homebrew formula for defaults-rs: Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.
+# Homebrew formula for defaults-rs: Drop-in replacement for the `defaults` tool on macOS.
 class Drs < Formula
-  version '0.3.4'
-  desc 'Near drop-in replacement for the macOS defaults CLI with API bindings for Rust.'
+  version '0.3.6'
+  desc 'Drop-in replacement for the `defaults` tool on macOS.'
   homepage 'https://github.com/hitblast/defaults-rs'
 
-  on_arm do
-    url "https://github.com/hitblast/defaults-rs/releases/download/v#{version}/drs-v#{version}-darwin-arm64.zip"
-    sha256 'f81be77f67a7d141d0b6d4e091eb03a114ed3ed55d487f2008fdfdf81c03cbeb'
-  end
-
-  on_intel do
-    url "https://github.com/hitblast/defaults-rs/releases/download/v#{version}/drs-v#{version}-darwin-x86_64.zip"
-    sha256 '6c9a59a858f031333c9c5a402253748e40c103e4f6c3a101c5ad0a60a9067081'
+  if Hardware::CPU.arm?
+    url "https://github.com/hitblast/defaults-rs/releases/download/v#{version}/drs-aarch64-apple-darwin.tar.gz"
+    sha256 '4ab83e8565f8f1788cd3c6038545338ba7110ed0516216a5aaee5e5224984b95'
+  else
+    odie "drs is only available for macOS ARM (Apple Silicon)."
   end
 
   license 'MIT'

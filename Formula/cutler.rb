@@ -2,13 +2,13 @@
 
 # Homebrew formula for Cutler: Powerful, declarative settings management for your Mac, with speed.
 class Cutler < Formula
-  version '0.14.4'
+  version '0.14.5'
   desc 'Powerful, declarative settings management for your Mac, with speed.'
   homepage 'https://github.com/cutlercli/cutler'
 
   if Hardware::CPU.arm?
     url "https://github.com/cutlercli/cutler/releases/download/v#{version}/cutler-aarch64-apple-darwin.tar.gz"
-    sha256 '2700b02301efd35d895e16291a55b045e919386647f769ce7a4d5cbd9fdb2d7a'
+    sha256 '76a3254b01ed30d957eb59fdafb635c958a1ca433b9293e889b98a2528c7ac85'
   else
     odie "cutler is only available for macOS ARM (Apple Silicon)."
   end

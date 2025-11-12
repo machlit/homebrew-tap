@@ -1,15 +1,13 @@
 # homebrew-tap
 
-Persistent Homebrew tap for shipping my software.
-
 ## Installation
 
 ```bash
 # basic tapping
-brew tap hitblast/tap
+brew tap machlit/tap
 
 # or, just directly install an app:
-brew install hitblast/tap/cutler
+brew install machlit/tap/cutler
 ```
 
 ## Available Casks
@@ -18,11 +16,6 @@ brew install hitblast/tap/cutler
 
 ## Available Formulae
 
-- [cutler](https://github.com/hitblast/cutler) 🟢
-- [drs](https://github.com/hitblast/defaults-rs) 🟢
+- [cutler](https://github.com/machlit/cutler) 🟢
+- [drs](https://github.com/machlit/defaults-rs) 🟢
 - [hookman](https://github.com/hitblast/hookman) 🟢
-
-## Maintained Formulae
-
-- [nimip](https://github.com/hitblast/nimip) 🟡
-- [mcsrvstat](https://github.com/hitblast/mcsrvstat) 🟡

@@ -12,7 +12,7 @@ cask 'alter' do
   depends_on macos: '>= :ventura' # macOS 13
 
   postflight do
-    system 'xattr -d com.apple.quarantine #{appdir}/Alter.app'
+    system "xattr -d com.apple.quarantine #{appdir}/Alter.app"
   end
 
   app 'Alter.app'

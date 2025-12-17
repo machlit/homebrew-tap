@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask 'alter' do
-  version '1.1.4'
-  sha256 '4cd70f5babff08e5368d77d3cbb0c72031eb1f796a4e52c18e5fef92fb515c05'
+  version '1.2.0'
+  sha256 'fa70acfa1d7623b5238cf06857d7872a4d268b02d3d3e6f95a5bd262eb6a5c04'
 
   url "https://github.com/hitblast/Alter/releases/download/v#{version}/alter-v#{version}-darwin-arm64.zip"
   name 'Alter'

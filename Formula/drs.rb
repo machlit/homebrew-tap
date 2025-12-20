@@ -8,7 +8,7 @@ class Drs < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/machlit/defaults-rs/releases/download/v#{version}/drs-aarch64-apple-darwin.tar.gz"
-    sha256 '6a23bfce7562c28e3ab893793ab8f28087e439e8473a45defbbdc5c1c7afdb08'
+    sha256 '80f2875265a8c46958a02c50edbef69c4ee6087fc4224c0847a6595327764fa7'
   else
     odie "drs is only available for macOS ARM (Apple Silicon)."
   end

@@ -2,13 +2,13 @@
 
 # Homebrew formula for defaults-rs: Drop-in replacement for the `defaults` tool on macOS.
 class Drs < Formula
-  version '1.2.1'
+  version '1.2.2'
   desc 'Drop-in replacement for the `defaults` tool on macOS.'
   homepage 'https://github.com/machlit/defaults-rs'
 
   if Hardware::CPU.arm?
     url "https://github.com/machlit/defaults-rs/releases/download/v#{version}/drs-aarch64-apple-darwin.tar.gz"
-    sha256 '80f2875265a8c46958a02c50edbef69c4ee6087fc4224c0847a6595327764fa7'
+    sha256 'ba9341e60394b5f546c67f94bfac54c91aa178487b4b2eaddb01caef90326cfd'
   else
     odie "drs is only available for macOS ARM (Apple Silicon)."
   end
